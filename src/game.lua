@@ -1,7 +1,6 @@
-— oh, a folder
+-- DEPENDANCIES/GLOBAL VARS
+ioutils = require( "ioutils" )
 
-local function main() 
-   print(“Hello world!”)
-end
-
-main()
+-- MAIN GAME CHUNK
+name = ioutils.questionv("Hello! What is your name?", {})
+print(name)
